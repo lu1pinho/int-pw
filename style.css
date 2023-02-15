@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 35px;
+    box-shadow: 2px 2px 10px #ccc;
+    border-radius: 60px 60px 0px 0px;
+}
+
+
+.painel {
+    display: flex;
+    /* * Flex direction: (Modifica o posicionamento dos itens da div painel*/
+    flex-direction: column;
+    /* * Alight-item: (Modifica o alinhamento dos itens*/
+    align-items: center;
+    background-color: #ffffff;
+    /* * A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas.*/ 
+    padding: 0px;
+    width: 100%; /* Adicionado */
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: -10px;
+    margin: auto;
+}
+
+.tl {
+    font-size: 20px;
+    color: #000000;
+    margin-top: -10px;
+}
+
+.tl h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: -25px;
+}   
+
+.img img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    visibility: visible;
+}
+
+.sobre-mim {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 10px;
+    height: 13.5vw;
+}
+
+.hobbies {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    margin-top: -75px;
+    
+}
+
+
+.projetos {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    
+}
+
+.proj {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contatos-redes {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin: 6px;
+}
+
+button:hover {
+        background-color: #04ff36;
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
